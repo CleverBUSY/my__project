@@ -2,7 +2,7 @@ import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import CategoryFood from "../../api/categories";
 
 export const fetchCategoryFood = createAsyncThunk("/category/fetchCotegoryFood", async () => {
-    const data = await CategoryFood.getCategory();
+    const data = await CategoryFood.getCategoryFood();
     return data;
 });
 

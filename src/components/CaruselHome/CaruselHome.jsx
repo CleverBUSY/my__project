@@ -22,7 +22,7 @@ const CaruselHome = () => {
     }, [currentSlide]);
 
     return (
-        <section style={{marginTop: "40px"}}>
+        <section style={{marginTop: "20px"}}>
             <div id="default-carousel" className="relative w-full" dataCarousel="slide">
                 <div className="relative h-56 overflow-hidden rounded-lg md:h-96">
                     {/* Slide 1 */}

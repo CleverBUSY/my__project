@@ -3,7 +3,6 @@ import axios from "../axios";
 class CategoryFood {
     async getCategoryFood(){
         const res = await axios.get('/categories').then(res => res.data);
-        console.log(res);
         return res;
     }
     getCategoriesById(id){}
